@@ -1,0 +1,26 @@
+.signup-container {
+  /* border: 2px solid red; */
+  padding: 50px;
+}
+.signup-container h1 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 54px;
+  color: rgba(0, 0, 0, 0.78);
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signup-form input {
+  width: 226px;
+  height: 40px;
+  background: #f9f9fb;
+  box-shadow: 5px 5px 20px rgba(181, 159, 132, 0.17);
+  border-radius: 6px;
+  border: none;
+  padding: 5px;
+}

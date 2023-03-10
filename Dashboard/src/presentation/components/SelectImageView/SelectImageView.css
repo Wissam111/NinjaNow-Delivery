@@ -1,0 +1,31 @@
+.select-file-wrapper {
+  width: 215px;
+  /* height: 43px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+  flex-direction: column;
+  margin-bottom: 20px;
+  /* border: 2px solid red; */
+}
+.select-file-wrapper label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+.select-file-wrapper label img {
+  width: 21px;
+}
+
+.select-file-wrapper p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  size: 14px;
+  color: rgba(0, 0, 0, 0.35);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  height: 120vh;
+  position: relative;
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+}
+.app-wrapper {
+  // width: 100%;
+  // height: 663px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  top: 75px;
+}
+
+.page-container {
+  width: 1100px;
+  height: 663px;
+  position: relative;
+  // left: 70px;
+  background: white;
+  // top: 75px;
+  box-shadow: 12px 12px 40px 0px rgba(181, 159, 132, 0.38);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.pageLogo {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.scroll::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.submit-Btn {
+  color: white;
+  background: rgba(248, 163, 0, 1);
+  width: 183px;
+  height: 46px;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.entryBtn {
+  width: 183px;
+  height: 46px;
+  background: #393535;
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-top: 20px;
+}

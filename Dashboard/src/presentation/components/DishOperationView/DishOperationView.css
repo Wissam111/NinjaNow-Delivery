@@ -1,0 +1,65 @@
+.add-dish-container {
+  width: 784px;
+  height: 562px;
+  border-radius: 6px;
+  background-image: url("../../../assets/imgs/white-dish2.png");
+  background-size: cover;
+  background-position: center;
+  z-index: 99999;
+  filter: drop-shadow(6px 6px 40px rgba(201, 179, 151, 0.51));
+  position: relative;
+}
+
+.add-dish-container .form-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: absolute;
+  left: 38%;
+  top: 7%;
+}
+.add-dish-container input {
+  width: 215px;
+  height: 43px;
+  background: none;
+  border: none;
+  background: #fefbfb;
+  box-shadow: 5px 5px 20px rgba(176, 164, 150, 0.76);
+  border-radius: 6px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  padding: 5px 10px 0 5px;
+
+  color: rgba(0, 0, 0, 0.35);
+}
+
+.add-dishImage-primary {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.add-dish-container button {
+  position: absolute;
+  left: 40%;
+  top: 85%;
+}
+.close-dish-icon {
+  cursor: pointer;
+  position: absolute;
+  left: 33em;
+  z-index: 9999;
+  top: 100px;
+  width: 30px;
+}
+
+.dishOpration-trash-bin {
+  width: 30px;
+  position: absolute;
+  left: 15em;
+  top: 27em;
+  cursor: pointer;
+}

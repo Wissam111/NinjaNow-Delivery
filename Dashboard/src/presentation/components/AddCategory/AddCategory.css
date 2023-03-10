@@ -1,0 +1,17 @@
+.addCategory-container {
+  width: 500px;
+  height: 500px;
+  border-radius: 6px;
+  background-image: url("../../../assets/imgs/categoryBackground.jpg");
+  background-size: cover;
+  background-position: center;
+  z-index: 99999;
+  filter: drop-shadow(6px 6px 40px rgba(201, 179, 151, 0.51));
+  /* position: relative;
+   */
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  /* border: 2px solid red; */
+}

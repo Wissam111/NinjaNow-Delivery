@@ -1,0 +1,40 @@
+.dishCard-container {
+  width: 165px;
+  height: 174px;
+
+  /* background: rgba(0, 0, 0, 0.77); */
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* justify-content: right; */
+  /* align-items: center; */
+  /* padding: 10px; */
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.dish-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  /* color: #ffffff; */
+}
+.dishPrice-primary {
+  /* color: rgba(255, 255, 255, 0.2); */
+  color: gray;
+}
+.dishName {
+  width: 100%;
+  border: 2px solid red;
+}
+.dishCard-container img {
+  width: 123px;
+  height: 83px;
+  border-radius: 6px;
+  margin-bottom: 2px;
+  /* filter: drop-shadow(8px 8px 50px rgba(0, 0, 0, 0.87)); */
+}

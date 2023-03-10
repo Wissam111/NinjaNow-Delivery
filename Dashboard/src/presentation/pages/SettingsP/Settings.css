@@ -1,0 +1,99 @@
+.settings-row-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+}
+
+.setting-form-wrapper {
+  /* border: 2px solid red; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.setting-img-wrapper img {
+  width: 36em;
+}
+.restaurant-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 34px;
+  align-items: center;
+}
+.restaurant-img {
+  /* border: 2px solid red; */
+  position: relative;
+}
+.restaurant-img .profileImg {
+  width: 11em;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.restaurant-img .add-img-icon {
+  width: 30px;
+  position: absolute;
+  right: 35px;
+  top: 130px;
+  cursor: pointer;
+}
+
+.restaurant-form input {
+  border: none;
+  width: 215px;
+  height: 43px;
+  background: #fefbfb;
+  box-shadow: 6px 6px 30px rgba(0, 0, 0, 0.18);
+  border-radius: 6px;
+  padding: 2px;
+  padding-left: 10px;
+}
+.save-Btn {
+  margin-top: 25px;
+  background: #393535;
+}
+
+.selectFile-wrapper input {
+  border: 2px solid red;
+  background: none;
+  background: red;
+}
+
+.restaurant-open-close-btn {
+  position: absolute;
+  left: 320px;
+  top: 120px;
+}
+.openBtn {
+  background-color: green;
+}
+.closeBtn {
+  background-color: rgb(216, 4, 4);
+}
+
+.restaurant-open-close-btn {
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}

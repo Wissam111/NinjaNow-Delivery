@@ -1,0 +1,9 @@
+.loading-screen-wrapper {
+  background-image: url("../../../assets/imgs/loader2.gif");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left: 81px;
+  z-index: 999999;
+  opacity: 0.5;
+}

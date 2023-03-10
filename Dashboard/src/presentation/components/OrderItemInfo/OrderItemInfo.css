@@ -1,0 +1,34 @@
+.itemInfo-container {
+  width: 90%;
+  height: 71px;
+  display: flex;
+  margin: 30px 0 0;
+  padding: 7px;
+}
+.itemInfo-container img {
+  width: 100px;
+  height: 59px;
+  /* border: 2px solid red; */
+  border-radius: 0.4em;
+}
+.itemInfo {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.32);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px;
+  margin: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
+.itemInfo span {
+  min-width: 100px;
+}
+.itemInfo .total {
+  text-align: center;
+}
+.itemInfo .price {
+  text-align: right;
+}

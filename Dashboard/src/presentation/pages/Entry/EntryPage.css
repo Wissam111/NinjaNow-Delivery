@@ -1,0 +1,36 @@
+.entry-nav {
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+  padding: 40px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.entry-nav img {
+  width: 224px;
+  height: 230px;
+}
+.entry-nav-cta {
+  margin-right: 30px;
+  display: flex;
+  gap: 15px;
+}
+.entry-nav-cta button {
+  width: 81px;
+  height: 38px;
+  border-radius: 6px;
+  background: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  cursor: pointer;
+}
+.active {
+  border: 1px solid rgba(0, 0, 0, 0.64);
+  background: #8a9ea0 !important;
+  color: white;
+}

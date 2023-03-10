@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.4",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.5.4",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wissam111/Delivery-app-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wissam111/Delivery-app-backend/issues"
+  },
+  "homepage": "https://github.com/Wissam111/Delivery-app-backend#readme",
+  "description": ""
+}
