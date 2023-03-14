@@ -40,7 +40,7 @@ the project is composed with
 
 `Open Mobile Folder `
   - npm install
-  - Add your IP in apiContext and ulpoadRepository folders
+  - Add your IP in apiContext and uploadRepository folders
   - npm start
   - scan with expo
  
